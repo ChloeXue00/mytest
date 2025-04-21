@@ -1,0 +1,15 @@
+# Don't copy local build outputs
+build/
+out/
+
+# Ignore Git data
+.git/
+.gitignore
+
+# Ignore IDE/editor settings
+.vscode/
+
+# Ignore OS/system files
+.DS_Store
+*.swp
+*~

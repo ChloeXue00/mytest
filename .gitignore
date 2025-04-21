@@ -1,0 +1,24 @@
+# CMake build artifacts
+build/
+out/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# VS Code settings
+.vscode/
+
+# Executables and object files
+*.o
+*.so
+*.a
+*.out
+*.exe
+
+# Backup files
+*~
+*.swp
+
+# System files
+.DS_Store
