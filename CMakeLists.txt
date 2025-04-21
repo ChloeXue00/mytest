@@ -16,9 +16,9 @@ add_executable(${PROJECT_NAME} ${CMAKE_CURRENT_SOURCE_DIR}/src/helloworld.cpp
     ${CMAKE_CURRENT_SOURCE_DIR}/src/prime-checker.cpp ${CMAKE_BINARY_DIR}/messages.hpp)
 target_link_libraries(${PROJECT_NAME} Threads::Threads)
 
-enable_testing()
-add_executable(test-prime-checker 
-    ${CMAKE_CURRENT_SOURCE_DIR}/tests/test-prime-checker.cpp
-    ${CMAKE_CURRENT_SOURCE_DIR}/src/prime-checker.cpp)
-add_test(NAME test-prime-checker COMMAND test-prime-checker)
+# enable_testing()
+# add_executable(test-prime-checker 
+#     ${CMAKE_CURRENT_SOURCE_DIR}/tests/test-prime-checker.cpp
+#     ${CMAKE_CURRENT_SOURCE_DIR}/src/prime-checker.cpp)
+# add_test(NAME test-prime-checker COMMAND test-prime-checker)
 

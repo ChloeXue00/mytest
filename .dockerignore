@@ -1,25 +1,22 @@
-# 不拷贝本地构建产物
+#   don't copy local build file
 build/
 out/
 
-# 不拷贝 Git 仓库数据
+# dont copy git repo data
 .git/
 .gitignore
 
-# IDE / 编辑器配置文件
+# IDE config file
 .vscode/
 *.code-workspace
 
-# 临时文件 / 缓存文件
+# temp file/ cache
 *.swp
 *~
 *.bak
 *.tmp
 
-# 系统文件
+# sys file
 .DS_Store
 Thumbs.db
 
-# 单独的可执行文件（你当前目录下生成的）
-helloworld
-test-prime-checker
